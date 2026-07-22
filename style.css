@@ -87,7 +87,7 @@ h1 {
 }
 
 .intro {
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -121,7 +121,8 @@ h1 {
 #education > h2,
 #skills > h2,
 #experience > h2,
-#research > h2 {
+#research > h2,
+#contact > h2 {
   margin: 0 0 8px;
 }
 
@@ -142,7 +143,8 @@ h1 {
 }
 
 .education-subcard h3,
-.skills-subcard h3 {
+.skills-subcard h3,
+.contact-card h3 {
   margin: 0 0 6px;
 }
 
@@ -169,18 +171,43 @@ h1 {
   line-height: 1.5;
 }
 
-.skills-subcard ul {
+.skills-subcard ul,
+.contact-card ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
   margin: 0;
-  padding-left: 20px;
-  line-height: 1.6;
+  padding: 0;
+  list-style: none;
 }
 
-.skills-subcard li {
-  margin-bottom: 4px;
+.skills-subcard li,
+.contact-card li {
+  padding: 8px 14px;
+  border: 1px solid #a9cfa9;
+  border-radius: 999px;
+  background: #f9fcf9;
+  color: #1f513c;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.skills-subcard li a,
+.contact-card li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.skills-subcard li a:hover,
+.contact-card li a:hover {
+  text-decoration: underline;
 }
 
 #experience > .card,
-#research > .card {
+#research > .card,
+#contact > .card {
   margin-top: 0;
 }
 
