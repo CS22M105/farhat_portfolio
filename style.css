@@ -211,6 +211,11 @@ h1 {
   margin-top: 0;
 }
 
+#experience > .card {
+  position: relative;
+  padding-top: 36px;
+}
+
 #experience > .card + .card,
 #research > .card + .card {
   margin-top: 16px;
@@ -222,12 +227,7 @@ h1 {
   margin-bottom: 6px;
 }
 
-#experience > .card {
-  position: relative;
-  padding-top: 36px;
-}
-
-#experience > .card .experience-role {
+.experience-subcard .experience-role {
   margin-bottom: 0;
 }
 
