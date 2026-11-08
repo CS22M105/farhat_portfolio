@@ -222,6 +222,23 @@ h1 {
   margin-bottom: 6px;
 }
 
+.experience-subcard {
+  position: relative;
+  padding-top: 36px;
+}
+
+.experience-subcard .experience-role {
+  margin-bottom: 0;
+}
+
+.experience-date-top-right {
+  position: absolute;
+  top: 14px;
+  right: 20px;
+  margin: 0;
+  white-space: nowrap;
+}
+
 /* Projects section: two columns on wide screens */
 #projects {
   display: flex;
