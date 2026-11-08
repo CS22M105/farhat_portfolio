@@ -222,12 +222,12 @@ h1 {
   margin-bottom: 6px;
 }
 
-.experience-subcard {
+#experience > .card {
   position: relative;
   padding-top: 36px;
 }
 
-.experience-subcard .experience-role {
+#experience > .card .experience-role {
   margin-bottom: 0;
 }
 
